@@ -35,5 +35,15 @@ namespace Bakery.Tests
             Assert.AreEqual(6, newPastry.PastryCost());
 
     }
+    [TestMethod]
+
+        public void
+    CostOfPastry_returnsTheCostOffourPastry_Pastry()
+        {
+            Pastry newPastry = new Pastry(4);
+            Assert.AreEqual(6, newPastry.PastryCost());
+
+
+}
 }
 }
