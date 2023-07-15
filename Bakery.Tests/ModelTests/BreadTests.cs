@@ -57,8 +57,8 @@ namespace Bakery.Tests
         }
         public void costOfBread_ReturnTheCostOfHugeLoavesof_Bread()
         {
-            // Bread newBread = new Bread(300);
-            // Assert.AreEqual([insert cost of 300 breads], newBread.BreadCost());
+            Bread newBread = new Bread(300);
+            Assert.AreEqual(800, newBread.BreadCost());
         }
 
 
