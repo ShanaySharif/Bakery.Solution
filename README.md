@@ -2,9 +2,9 @@
 By: Shanay Mohamed
 
 ## Technologies Used
-C#
-.NET
-Git
+- C#
+- .NET
+- Git
 ## Description
 This is the project allows users to order loaves of bread and pastries.
 
