@@ -32,14 +32,14 @@ namespace Bakery.Tests
             Assert.AreEqual(10, newBread.BreadCost());
         }
 
-        [TestMethod] //#3
+        [TestMethod] 
         public void costOfBread_ReturnTheCostOfThreeLoavesof_Bread()
         {
             Bread newBread = new Bread(3);
             Assert.AreEqual(10, newBread.BreadCost());
 
         }
-        [TestMethod] //#4
+        [TestMethod] 
 
         public void costOfBread_ReturnTheCostOfFourLoavesof_Bread()
         {
@@ -47,7 +47,7 @@ namespace Bakery.Tests
             Assert.AreEqual(15, newBread.BreadCost());
 
         }
-[TestMethod] //#4
+        [TestMethod]
 
         public void costOfBread_ReturnTheCostOfFiveLoavesof_Bread()
         {
@@ -55,12 +55,15 @@ namespace Bakery.Tests
             Assert.AreEqual(20, newBread.BreadCost());
 
         }
+        public void costOfBread_ReturnTheCostOfHugeLoavesof_Bread()
+        {
+            Bread newBread = new Bread(5);
+            Assert.AreEqual(300, newBread.BreadCost());
+        }
+
+
 
     }
-   
-        
 
-    }
-
-
+}
 
