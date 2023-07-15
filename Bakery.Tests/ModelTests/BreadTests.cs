@@ -18,7 +18,7 @@ namespace Bakery.Tests
         }
 
         [TestMethod]
-        public void FindingBreadCost_ReturnsTheCostOfOneLoaf_Bread()
+        public void costOfBread_ReturnsTheCostOfOneLoaf_Bread()
         {
             Bread newBread = new Bread(1);
             Assert.AreEqual(5, newBread.BreadCost());
