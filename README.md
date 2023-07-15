@@ -18,7 +18,7 @@ To run tests
 Navigate to the Bakery.Tests directory
 In the command line, run the command dotnet test
 Known Bugs
-None at this time. Please report any to iamalion@gmail.com
+None at this time. 
 
 License
-MIT Copyright (c) 2023 iamalion
+MIT Copyright (c) 2023 Shankaron Mohamed 
