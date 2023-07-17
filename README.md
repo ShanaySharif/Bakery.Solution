@@ -1,12 +1,12 @@
-## Pierre's Bakery
-By: Shanay Mohamed
+## Pierre's Bakery -
+By: Shankaron Mohamed
 
 ## Technologies Used
 - C#
 - .NET
 - Git
 ## Description
-This is the project allows users to order loaves of bread and pastries.
+This project is a console application for a bakery. It allows users to to run the application and specify how many loaves of bread and pastrys they would like and the application will return the cost of the order.
 
 ### Complete Setup
 - Clone this repository
