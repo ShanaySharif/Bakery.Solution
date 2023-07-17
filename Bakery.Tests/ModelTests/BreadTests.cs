@@ -2,7 +2,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Bakery.Models;
 using System.Collections.Generic;
 using System;
-//add   passing test for new instance of the Bread class w/qty of 2
 
 namespace Bakery.Tests
 {
@@ -58,7 +57,7 @@ namespace Bakery.Tests
         public void costOfBread_ReturnTheCostOfHugeLoavesof_Bread()
         {
             Bread newBread = new Bread(300);
-            Assert.AreEqual(800, newBread.BreadCost());
+            Assert.AreEqual(1000, newBread.BreadCost());
         }
 
 
